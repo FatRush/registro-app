@@ -1,0 +1,10 @@
+export interface Nino {
+  id?: string;
+  nombre: string;
+  edad: number;
+  papa: string;
+  telefono: string;
+  observaciones?: string;
+  activo: boolean;
+  fecha: string; // O timestamp de Firebase
+}
